@@ -114,9 +114,9 @@ INCR:
     GOTO Main
 
 Delay:
-    MOVLW 0x1
-    MOVWF 0x7
     MOVLW 0x5
+    MOVWF 0x7
+    MOVLW 0xFF
 outer2:
     MOVWF 0x6
 outer:    
